@@ -26,11 +26,6 @@ def sadtalker_demo():
                      <a style='font-size:18px;color: #efefef' href='https://github.com/Winfredy/SadTalker'> Github </div>")
         
         
-        gr.Markdown("""
-        <b>You may duplicate the space and upgrade to GPU in settings for better performance and faster inference without waiting in the queue. <a style='display:inline-block' href="https://huggingface.co/spaces/vinthony/SadTalker?duplicate=true"><img src="https://bit.ly/3gLdBN6" alt="Duplicate Space"></a></b> \
-        <br/><b>Alternatively, try our GitHub <a href=https://github.com/Winfredy/SadTalker> code </a> on your own GPU. </b> <a style='display:inline-block' href="https://github.com/Winfredy/SadTalker"><img src="https://img.shields.io/github/stars/Winfredy/SadTalker?style=social"/></a> \
-        """)
-        
         with gr.Row().style(equal_height=False):
             with gr.Column(variant='panel'):
                 with gr.Tabs(elem_id="sadtalker_source_image"):
